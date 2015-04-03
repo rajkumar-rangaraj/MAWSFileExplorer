@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/ui.fancytree.min.css" rel="stylesheet" />
+    <link href="Content/site.css" rel="stylesheet" />
+    <script src="Scripts/jquery-2.1.3.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-ui.custom.js"></script>
+    <script src="Scripts/jquery.fancytree-all.min.js"></script>
+    <script src="Scripts/modernizr-2.8.3.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-grid navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex5-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Azure WebSites File Explorer</a>
+            </div>
+            <div class="navbar-collapse navbar-ex5-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Home</a></li>
+                    <li class=""><a href="mailto:rajrang@microsoft.com,rapuri@microsoft.com?Subject=FileExplorer Site Extension">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="main" class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <table id="tree">
+                    <thead>
+                        <tr>
+                            <th class="name">Name</th>
+                            <th>Size</th>
+                            <th class="date">Date Modified</th>
+                            <th class="files">Files</th>
+                            <th class="folders">Folders</th>
+                            <th class="percentOfParent">% of Parent</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+
+       
+        <div class="navbar-fixed-bottom custom-navbar">
+            © 2014 Raghav Puri & Rajkumar Rangaraj
+        </div>
+
+    </div>
+    <script src="Scripts/fileExplorer.js"></script>
+</body>
+</html>

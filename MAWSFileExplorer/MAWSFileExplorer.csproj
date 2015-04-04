@@ -76,9 +76,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\folder.ico" />
+    <Content Include="Content\folder.png" />
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\fileexplorer.pubxml" />
+    <None Include="Properties\PublishProfiles\localsystem.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
